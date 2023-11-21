@@ -1,0 +1,154 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@200;300;400;500;600;700;800;900&display=swap');
+*{  
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Poppins', sans-serif;
+}
+.Background{
+    background-color: #F6F6F6;
+}
+
+.Main{
+    display: flex;
+    justify-content: space-between;
+    margin: 0px 30px;
+}
+
+.AlertsContainer{
+    background-color: #f6f6f6;
+    padding: 0 10px;
+}
+
+.Alerts {
+    width: 380px;
+    height: 35px;
+    font-size: 20px;
+    font-weight: bold;
+}
+
+.AlertsData {
+    overflow-y: scroll;
+}
+
+.AlertsData::-webkit-scrollbar {
+    display: none;
+}
+
+.card {
+    margin: 0 0 16px 0;
+  }
+
+  /* low */
+  .Low .card {
+    width: 380px;
+    height: 100px;
+    background-color: #fff;
+    display: flex;
+    padding: 10px 20px;
+    justify-content: space-around;
+    align-items: center;
+    border-left: 5px solid #0583d2;
+    border-radius: 3px;
+    box-shadow: rgba(149, 157, 165, 0.2) 0px 8px 24px;
+  }
+
+  .Low .card .subject {
+    margin: 0px 16px 0 16px;
+    margin-right: 180px;
+  }
+
+  .Low .card .subject p {
+    color: #909092;
+    font-size: 12px;
+  }
+
+  .Low .card .icon {
+    font-size: 24px;
+    color: #0583d2;
+  }
+  .Low .card .icon-times {
+    font-size: 24px;
+    color: #c3c2c7;
+    cursor: pointer;
+  }
+
+
+  /* Warning */
+  .Warning .card {
+    width: 380px;
+    height: 100px;
+    background-color: #fff;
+    display: flex;
+    padding: 10px 20px;
+    justify-content: space-around;
+    align-items: center;
+    border-left: 5px solid #fdc220;
+    border-radius: 3px;
+    box-shadow: rgba(149, 157, 165, 0.2) 0px 8px 24px;
+  }
+
+  .Warning .card .subject {
+    margin: 0px 16px 0 16px;
+    margin-right: 180px;
+  }
+
+  .Warning .card .subject p {
+    color: #909092;
+    font-size: 12px;
+  }
+
+  .Warning .card .icon {
+    font-size: 28px;
+    color: #fdc220;
+  }
+
+  .Warning .card .icon-times {
+    font-size: 28px;
+    color: #c3c2c7;
+    cursor: pointer;
+  }
+
+  /* High */
+  .High .card {
+    width: 380px;
+    height: 100px;
+    background-color: #fff;
+    display: flex;
+    padding: 10px 20px;
+    justify-content: space-around;
+    align-items: center;
+    border-left: 5px solid #f71721;
+    border-radius: 3px;
+    box-shadow: rgba(149, 157, 165, 0.2) 0px 8px 24px;
+  }
+
+  .High .card .subject {
+    margin: 0px 16px 0 16px;
+    margin-right: 180px;
+  }
+
+  .High .card .subject p {
+    color: #909092;
+    font-size: 12px;
+  }
+
+  .High .card .icon {
+    font-size: 24px;
+    color: #f71721;
+  }
+  .High .card .icon-times {
+    font-size: 24px;
+    color: #c3c2c7;
+    cursor: pointer;
+  }
+
+  .temperature {
+    font-size: x-large;
+  }
+
+  .delete {
+    font-size: 20px;
+    color: #000;
+    margin-left: 79.5%;
+  }
